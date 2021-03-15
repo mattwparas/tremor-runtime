@@ -46,6 +46,7 @@ pub(crate) mod rest;
 pub(crate) mod tcp;
 pub(crate) mod udp;
 pub(crate) mod ws;
+pub(crate) mod otel;
 
 struct StaticValue(Value<'static>);
 
